@@ -35,7 +35,7 @@ button{
 #btn{
     margin: auto;
     margin-top: 20px;
-    width: 815px;
+    text-align: center;
 }
 .btn-inside{
     width: 900px;
@@ -44,9 +44,8 @@ button{
     /* border: 2px solid red; */
     height: 55px;
     width: 783px;
-    margin-left: 100px;
     color: white;
-    padding-left: 37px;
+    padding-left: 30px;
     padding-top: 20px;
     font-weight: bolder;
 }
@@ -54,11 +53,12 @@ button{
     /* border: 2px solid red; */
     height: 50px;
     width: 783px;
-    margin-left: 100px;
     color: white;
-    padding-left: 37px;
     padding-top: 25px;
     font-weight: bolder;
     font-size: x-large;
+}
+.res_inp{
+   display:flex;
 }
 

@@ -13,38 +13,44 @@
     <div id="outside">
         <h1 id="heading">🖩CALCULATOR🖩</h1>
         <div>
-            <div>
-                <h1 id="val"> </h1>
-            </div>
-            <div>
-                <p id="res"></p>
+            <div class="res_inp">
+                <div>
+                    <h1 id="val"> </h1>
+                </div>
+                <div>
+                    <p id="res"></p>
+                </div>
             </div>
             <div id="btn">
                 <div class="btn-inside">
                     <button onclick="adder('1')">1</button>
                     <button onclick="adder('2')">2</button>
                     <button onclick="adder('3')">3</button>
-                    <button onclick="adder('*')">*</button>
-                </div>
-                <div class="btn-inside">
                     <button onclick="adder('4')">4</button>
+                    
+                </div>
+                <div class="btn-inside">              
                     <button onclick="adder('5')">5</button>
                     <button onclick="adder('6')">6</button>
-                    <button onclick="adder('+')">+</button>
-                </div>
-                <div class="btn-inside">
                     <button onclick="adder('7')">7</button>
-                    <button onclick="adder('8')">8</button>
+                    <button onclick="adder('8')">8</button>                   
+                </div>
+                <div class="btn-inside">                 
                     <button onclick="adder('9')">9</button>
-                    <button onclick="adder('-')">-</button>
+                    <button onclick="adder('0')">0</button>
+                    <button onclick="adder('.')">.</button>
+                    <button onclick="adder('^')">^</button>                                      
                 </div>
                 <div class="btn-inside">
-                    <button onclick="clearer()">C</button>
-                    <button onclick="adder('0')">0</button>
-                    <button onclick="compute(1)">=</button>
+                    <button onclick="adder('+')">+</button>
+                    <button onclick="adder('-')">-</button>
+                    <button onclick="adder('*')">*</button>
                     <button onclick="adder('/')">/</button>
                 </div>
-                <button onclick="adder('.')">.</button>
+                <div class="btn-inside">              
+                    <button onclick="clearer()">C</button>
+                    <button onclick="compute(1)">=</button>                  
+                </div>
             </div>
         </div>
     </div>
