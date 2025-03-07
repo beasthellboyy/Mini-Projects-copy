@@ -1,3 +1,5 @@
+// password generator js code
+
 let mode = document.querySelector("#modeChanger");
 let headline = document.getElementById("headline1");
 let body = document.querySelector("body");
